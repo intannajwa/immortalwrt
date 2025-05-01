@@ -36,6 +36,10 @@ config dhcp 'lan'
 	option max_preferred_lifetime '2700'
 	option max_valid_lifetime '5400'
 
+config dhcp 'wan'
+	option interface 'wan'
+	option ignore '1'
+
 config odhcpd 'odhcpd'
 	option maindhcp '0'
 	option leasefile '/tmp/hosts/odhcpd'
