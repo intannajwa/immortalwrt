@@ -1,6 +1,6 @@
 
 config sms_tool_js
-	option storage 'ME'
+	option storage 'SM'
 	option mergesms '0'
 	option pnumber '48'
 	option prefix '1'
